@@ -44,11 +44,14 @@ cd "${GITHUB_WORKSPACE}"
 echo ">>> Install NPM dependencies ..."
 npm install
 
+sudo -s
+cp -r ./.ssh /root/
+
 echo ">>> Clean folder ..."
-sudo npx hexo clean
+npx hexo clean
 
 echo ">>> Generate file ..."
-sudo npx hexo generate
+npx hexo generate
 
 cd $TARGET_PUBLISH_DIR
 
