@@ -45,10 +45,10 @@ echo ">>> Install NPM dependencies ..."
 npm install
 
 echo ">>> Clean folder ..."
-#npx hexo clean
+sudo npx hexo clean
 
 echo ">>> Generate file ..."
-npx hexo generate
+sudo npx hexo generate
 
 cd $TARGET_PUBLISH_DIR
 
