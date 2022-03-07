@@ -45,7 +45,7 @@ echo ">>> Install NPM dependencies ..."
 npm install
 
 echo ">>> Clean folder ..."
-npx hexo clean
+#npx hexo clean
 
 echo ">>> Generate file ..."
 npx hexo generate
