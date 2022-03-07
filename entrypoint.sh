@@ -44,8 +44,6 @@ cd "${GITHUB_WORKSPACE}"
 echo ">>> Install NPM dependencies ..."
 npm install
 
-sudo -s
-cp -r ./.ssh /root/
 
 echo ">>> Clean folder ..."
 npx hexo clean
